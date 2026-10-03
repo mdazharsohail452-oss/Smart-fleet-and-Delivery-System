@@ -180,7 +180,7 @@ Can access operational functionality such as:
 - Driver tracking
 Role-based access is enforced using Spring Security.
 
-👥 Customer Management
+##Customer Management
 SmartFleet provides REST APIs for managing customers.
 A customer contains information such as:
 Customer
@@ -190,7 +190,7 @@ Customer
 ├── Phone
 └── Address
 
-🚗 Driver Management
+## Driver Management
 Drivers are managed through the backend.
 Driver information includes:
 Driver
@@ -218,7 +218,7 @@ Example:
   "longitude": 77.6
 }
 
-🚛 Vehicle Management
+## Vehicle Management
 Vehicles can be created, viewed, updated, and deleted.
 Vehicle
 ├── ID
@@ -234,7 +234,7 @@ MAINTENANCE
 
 Vehicles can be associated with drivers during order assignment.
 
-📦 Order Management
+## Order Management
 SmartFleet manages the complete delivery order lifecycle.
 The order flow is:
 CREATED
